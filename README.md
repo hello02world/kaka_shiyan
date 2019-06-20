@@ -8,7 +8,7 @@
 ### cp docker.service /etc/systemd/system
 >
 ### 5 systemctl daemon-reload
-###systemctl enable docker
-###systemctl restart docker
+### systemctl enable docker
+### systemctl restart docker
 >
-###6 docker info
+### 6 docker info
