@@ -1,0 +1,8 @@
+#/bin/bash
+apt-get install -y ssh
+
+config=/etc/ssh/sshd_config
+sed -i s?"prohibit_password"?"yes"?g ${config}
+
+systemctl restart sshd
+
