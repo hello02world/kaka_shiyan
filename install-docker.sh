@@ -1,4 +1,11 @@
 #!/bin/bash
+# 0 prepare
+apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
 
 # 1 find docker.tgz
 TGZ=$(find /opt -type f -name "*.tgz" | grep docker)
