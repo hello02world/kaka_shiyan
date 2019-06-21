@@ -14,7 +14,7 @@ cat > /etc/docker/daemon.json << EOF
 {
   "data-root": "/var/lib/docker",
   "registry-mirrors" : [
-    "url-1"
+    "http://ublp9xzs.mirror.aliyuncs.com"
   ],
   "insecure-registries" : [
     "192.168.0.0/16",
