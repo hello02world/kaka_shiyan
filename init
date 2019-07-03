@@ -1,0 +1,10 @@
+#/bin/bash
+apt-get update
+apt-get install -y git
+
+git config --global user.name "kaka"
+git config --global user.email "635196387@qq.com"
+
+git init
+git remote add origin https://github.com/hello02world/kaka_shiyan.git
+
